@@ -1,13 +1,14 @@
 #include <iostream>
 using namespace std;
 
-class mahasiswa{
-public:
-mahasiswa();
+class mahasiswa{ //class
+public: //akses modifier
+mahasiswa(); //constructor
 };
 
+
 mahasiswa::mahasiswa(){
-    cout<<"Constructor Terpanggil"<<endl;
+    cout<<"Constructor Terpanggil"<<endl;  //definisi constructor
 };
 
 int main(){
